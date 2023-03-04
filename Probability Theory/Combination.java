@@ -6,6 +6,8 @@ public class Combination {
 
     static int n = 5, r = 3;
     static int[] numbers = new int[r];
+    
+    //n개중 r개를 뽑는 
     static void combination(int[] arr, int start, int r, int cnt) {
         if (cnt == r) {
             for(int i = 0; i < r; i++){
